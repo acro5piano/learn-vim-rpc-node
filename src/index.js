@@ -5,6 +5,5 @@ module.exports = plugin => {
 
   plugin.registerCommand('HelloNode', async () => {
     console.log('Hello Node')
-    plugin
   })
 }
