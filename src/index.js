@@ -1,7 +1,3 @@
-const nvim = require('neovim')
-
-nvim.Command('vsp')
-
 module.exports = plugin => {
   plugin.setOptions({
     dev: true,
@@ -9,5 +5,6 @@ module.exports = plugin => {
 
   plugin.registerCommand('HelloNode', async () => {
     console.log('Hello Node')
+    plugin
   })
 }
